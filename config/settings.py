@@ -90,6 +90,8 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+# We are using a MySQL database by default if DB_NAME is provided in the environment.
+# As a fallback, we use SQLite for local development and testing.
 if os.getenv('DB_NAME'):
     DATABASES = {
         'default': {
