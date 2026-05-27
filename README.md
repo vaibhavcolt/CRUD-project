@@ -355,7 +355,6 @@ I fully understand the implementation, architecture, and code written in this pr
 
 ---
 
-# Task 7: Short Answers
 
 ## 1. Why did you choose Django?
 
